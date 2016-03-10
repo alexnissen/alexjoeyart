@@ -1,0 +1,263 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin: 0;
+    color: #120D2F;
+}
+
+body {
+    text-align: center;
+    margin:0;
+    background-color:#fafafa;
+    padding: 0%
+}
+    
+.bar {background-color:rgb(249, 191, 59);
+    
+}
+.bar nav {float: right;
+         margin-top: 2%;
+}
+/* Structure */
+header {
+    margin-bottom: 30px; 
+    background-color:rgb(249, 191, 59);
+    position: fixed;
+    top: -1%;
+    left: 0%;
+    width: 100%;
+}
+header>h1,nav{
+          display: inline-block;}
+header h1{
+          float:left;
+          padding:3% 2% 3% 3%; /*top right bottom left*/
+}
+nav{padding:1%;
+    background-color:rgb(249, 191, 59);
+    line-height:40px;
+   
+}
+
+nav a{ 
+    font-size: 20px;
+    text-decoration: none;
+}
+header nav a{
+        margin:10px;
+}
+
+/* Typography */
+h1,h2,h3{
+    font-size:25px;
+  
+    font-family:sans-serif;
+    font-weight: bold;
+    padding:3% 3% 2% 3%; /*top right bottom left*/
+    background-color:rgb(249, 191, 59); 
+}
+p{
+    font-family:sans-serif;
+    font-size:20px;
+    text-decoration-style: solid;  
+    padding: 2% 2% 2% 2%;
+    margin-left: 15%;
+    margin-right: 15% 
+        
+}
+
+/* Elements */
+img {
+    padding: 10% 0% 3% 0%;
+    display: inline-block;
+    width:60%;
+    border:60%;
+    text-align: right;
+ }
+.twothirdscol {
+    display: inline-block;
+    width: 30%;
+    border: 30%;
+    text-align:left ;
+    vertical-align: top;
+    padding-top: 7.5%;
+}
+
+
+.glass art{border-radius:50%;
+    width:30;
+} 
+div{margin:2.5%;
+    display: inline-block;
+}
+.artnav h3{padding-bottom: 1%;}
+
+.artnav nav{width: 100%;
+text-align: center;
+}
+.artnav a{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* gallery images */
+
+.gallery div {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    margin:1%;
+    color:rgba(5,5,5,0.0);
+}
+.gallery div:hover{
+    color:black;
+    font-weight:bold;   
+}
+
+a.active {
+    font-weight: bold;
+}
+.hidden {
+    display: none;
+}
+#pick-a {
+    background-image:url("glass/postcardwoman.jpg");
+}
+
+#pick-a:hover {
+    background-image: url("sculptures/glassgod.jpg");
+}
+#pick-b {
+    background-image:url("glass/postcardv.jpg");
+}
+#pick-b:hover{
+    background-image:url("glass/redva.jpg");
+}
+#pick-c {
+    background-image:url("glass/platestripes.jpg");
+}
+#pick-c:hover{
+    background-image:url("glass/platestripes.jpg");
+}
+#pick-d {
+    background-image:url("glass/postcardv.jpg");
+}
+#pick-d:hover{
+    background-image:url("glass/platestripes.jpg");
+}
+
+#pick-e{
+    background-image:url("glass/purplels.jpg");
+}
+#pick-e:hover{
+    background-image:url("glass/redva.jpg");
+}
+#pick-f {
+    background-image:url("glass/redgodplate.jpg");
+}
+#pick-f:hover{
+    background-image:url("glass/redplatev.jpg");
+}
+#pick-g{
+    background-image:url("glass/redva.jpg");
+}
+#pick-g:hover{
+    background-image:url("glass/redpls.jpg");
+}
+#pick-h{
+    background-image:url("glass/redva.jpg");
+}
+#pick-h:hover{
+    background-image:url("glass/redva.jpg");
+}
+#pick-i{
+    background-image:url("glass/redva.jpg");
+}
+#pick-i:hover{
+    background-image:url("resin/goddessback.jpg");
+}
+#pick-j{
+    background-image:url("glass/redva.jpg");
+}
+#pick-j:hover{
+    background-image:url("resin/heartls.jpg");
+}
+#pick-k{
+    background-image:url("resin/heartsrose.jpg");
+}
+#pick-k:hover{
+    background-image:url("resin/heartsrose.jpg");     
+}
+#pick-l{
+    background-image:url("resin/heartsrose.jpg");
+}
+#pick-l{
+    background-image:url("resin/heartsrose.jpg");    
+}
+#pick-m{
+    background-image:url("resin/godessback.jpg");
+}
+#pick-m:hover{
+    background-image:url("resin/goddessesls.jpg");
+}
+#pick-n{background-image:url("sculptures/womanfont1.jpg")
+    
+}
+#pick-o{
+    background-image:url("sculptures/womanfont1.jpg");
+}
+#pick-o:hover{
+    background-image:url("sculptures/womanback.jpg");
+}
+
+#pick-p{
+    background-image:url("jewellery/cellearings.jpg");
+}
+#pick-q{
+    background-image:url("jewellery/glassred.jpg");
+    }
+#pick-r{
+    background-image:url("jewellery/glassyellow.jpg");
+}
+#pick-s{
+    background-image:url("jewellery/goddessnecklace.jpg");
+}
+#pick-t{
+    background-image:url("jewellery/heartsls.jpg");
+}
+#pick-u{
+    background-image:url("jewellery/necklacegp.jpg");
+}
+#pick-v{
+    background-image:url("jewellery/purple.jpg");
+}
+#pick-w{
+    background-image:url("jewellery/purplels.jpg");
+}
+#pick-x{
+    background-image:url("jewellery/purpletwols.jpg");
+}
+#pick-y{
+    background-image:url("jewellery/purplevls.jpg");
+}
+#pick-z{
+    background-image:url("jewellery/red.jpg");
+}
+#redyellow{
+    background-image:url("jewellery/redyellow.jpg");
+}
+#redlights{
+    background-image:url("sculptures/redlightls.jpg");
+    }
+#smpodpl{
+    background-image:url("sculptures/smpgodpl.jpg");
+    }
+
+#womanfront{background-image:url(resin/goddesseslscopy.jpg)
+}
+
+
+nav {
+    
+}
